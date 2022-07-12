@@ -48,120 +48,121 @@ else:
     no_5 = "|  0|"
     no_6 = "|0 0|"
     # The faces of the dice are represented visually
-    if (die1 == 1):
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-    elif (die1 == 2):
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()  
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-    elif (die1 == 3):
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()        
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()  
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-    elif (die1 == 4):
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()  
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-    elif (die1 == 5):
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()  
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-    elif (die1 == 6):    
-        if (die2 == 1):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 2):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 3):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 4):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()  
-        elif (die2 == 5):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()
-        elif (die2 == 6):
-            print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-            print()   
+    def Dice_faces(die1,die2):
+		if (die1 == 1):
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+		elif (die1 == 2):
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()  
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+		elif (die1 == 3):
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()        
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()  
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+		elif (die1 == 4):
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()  
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+		elif (die1 == 5):
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()  
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+		elif (die1 == 6):    
+			if (die2 == 1):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 2):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 3):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 4):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()  
+			elif (die2 == 5):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()
+			elif (die2 == 6):
+				print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
+				print()   
     
     print("--Dice:", die1, "and", die2)
     print("--Lucky number:", dice_total)
@@ -225,120 +226,7 @@ else:
                 die1 = random.randint(1,6)
                 die2 = random.randint(1,6)
                 dice_total = die1 + die2
-                if (die1 == 1):
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_2+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                elif (die1 == 2):
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()  
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                elif (die1 == 3):
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()        
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()  
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_4+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_5+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                elif (die1 == 4):
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()  
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_2+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                elif (die1 == 5):
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()  
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_3+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                elif (die1 == 6):    
-                    if (die2 == 1):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_2+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 2):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 3):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_4+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_5+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 4):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_2+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()  
-                    elif (die2 == 5):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_3+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()
-                    elif (die2 == 6):
-                        print(no_1+"\t"+no_1+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_6+"\t"+no_6+"\n"+no_1+"\t"+no_1+"\n")
-                        print()               
+                Dice_faces(die1,die2)               
                 
                 print("--Dice:", die1, "and", die2)
                 print("--Lucky number:", dice_total)
